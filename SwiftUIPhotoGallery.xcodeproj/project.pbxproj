@@ -469,6 +469,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "camera use";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "photo add";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "photo use";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -500,6 +501,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "camera use";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "photo add";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "photo use";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
