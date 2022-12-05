@@ -14,7 +14,7 @@
 		DCBE9E63293C17F4008508B1 /* SwiftUIPhotoGalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE9E62293C17F4008508B1 /* SwiftUIPhotoGalleryTests.swift */; };
 		DCBE9E6D293C17F4008508B1 /* SwiftUIPhotoGalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE9E6C293C17F4008508B1 /* SwiftUIPhotoGalleryUITests.swift */; };
 		DCBE9E6F293C17F4008508B1 /* SwiftUIPhotoGalleryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE9E6E293C17F4008508B1 /* SwiftUIPhotoGalleryUITestsLaunchTests.swift */; };
-		DCBE9E7C293C1F2B008508B1 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE9E7B293C1F2B008508B1 /* CameraView.swift */; };
+		DCBE9E7C293C1F2B008508B1 /* Camera1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE9E7B293C1F2B008508B1 /* Camera1View.swift */; };
 		DCBE9E7E293C20F5008508B1 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE9E7D293C20F5008508B1 /* Camera.swift */; };
 		DCBE9E80293C21FB008508B1 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE9E7F293C21FB008508B1 /* DataModel.swift */; };
 		DCBE9E82293C2219008508B1 /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE9E81293C2219008508B1 /* PhotoCollection.swift */; };
@@ -26,6 +26,8 @@
 		DCBE9E8E293C2385008508B1 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE9E8D293C2385008508B1 /* PhotoView.swift */; };
 		DCBE9E90293C2568008508B1 /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE9E8F293C2568008508B1 /* PhotoLibrary.swift */; };
 		DCBE9E92293C257B008508B1 /* PhotoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE9E91293C257B008508B1 /* PhotoItemView.swift */; };
+		DCBE9E94293C3C56008508B1 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE9E93293C3C56008508B1 /* SearchView.swift */; };
+		DCBE9E96293C9DD6008508B1 /* MapSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE9E95293C9DD6008508B1 /* MapSearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +58,7 @@
 		DCBE9E68293C17F4008508B1 /* SwiftUIPhotoGalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPhotoGalleryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCBE9E6C293C17F4008508B1 /* SwiftUIPhotoGalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPhotoGalleryUITests.swift; sourceTree = "<group>"; };
 		DCBE9E6E293C17F4008508B1 /* SwiftUIPhotoGalleryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPhotoGalleryUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		DCBE9E7B293C1F2B008508B1 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		DCBE9E7B293C1F2B008508B1 /* Camera1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera1View.swift; sourceTree = "<group>"; };
 		DCBE9E7D293C20F5008508B1 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		DCBE9E7F293C21FB008508B1 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		DCBE9E81293C2219008508B1 /* PhotoCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollection.swift; sourceTree = "<group>"; };
@@ -68,6 +70,8 @@
 		DCBE9E8D293C2385008508B1 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
 		DCBE9E8F293C2568008508B1 /* PhotoLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibrary.swift; sourceTree = "<group>"; };
 		DCBE9E91293C257B008508B1 /* PhotoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItemView.swift; sourceTree = "<group>"; };
+		DCBE9E93293C3C56008508B1 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		DCBE9E95293C9DD6008508B1 /* MapSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,19 +125,15 @@
 				DCBE9E55293C17F4008508B1 /* Assets.xcassets */,
 				DCBE9E85293C2277008508B1 /* CachedImageManager.swift */,
 				DCBE9E7D293C20F5008508B1 /* Camera.swift */,
-				DCBE9E7B293C1F2B008508B1 /* CameraView.swift */,
-				DCBE9E53293C17F3008508B1 /* MainView.swift */,
 				DCBE9E7F293C21FB008508B1 /* DataModel.swift */,
 				DCBE9E87293C22B6008508B1 /* PhotoAsset.swift */,
 				DCBE9E83293C225B008508B1 /* PhotoAssetCollection.swift */,
 				DCBE9E81293C2219008508B1 /* PhotoCollection.swift */,
+				DCBE9E8F293C2568008508B1 /* PhotoLibrary.swift */,
 				DCBE9E57293C17F4008508B1 /* Preview Content */,
 				DCBE9E51293C17F3008508B1 /* SwiftUIPhotoGalleryApp.swift */,
 				DCBE9E89293C2326008508B1 /* ViewFinderView.swift */,
-				DCBE9E8B293C2353008508B1 /* PhotoCollectionView.swift */,
-				DCBE9E8D293C2385008508B1 /* PhotoView.swift */,
-				DCBE9E8F293C2568008508B1 /* PhotoLibrary.swift */,
-				DCBE9E91293C257B008508B1 /* PhotoItemView.swift */,
+				DCBE9E97293C9DE3008508B1 /* Views */,
 			);
 			path = SwiftUIPhotoGallery;
 			sourceTree = "<group>";
@@ -161,6 +161,20 @@
 				DCBE9E6E293C17F4008508B1 /* SwiftUIPhotoGalleryUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIPhotoGalleryUITests;
+			sourceTree = "<group>";
+		};
+		DCBE9E97293C9DE3008508B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCBE9E95293C9DD6008508B1 /* MapSearchView.swift */,
+				DCBE9E7B293C1F2B008508B1 /* Camera1View.swift */,
+				DCBE9E93293C3C56008508B1 /* SearchView.swift */,
+				DCBE9E53293C17F3008508B1 /* MainView.swift */,
+				DCBE9E8B293C2353008508B1 /* PhotoCollectionView.swift */,
+				DCBE9E91293C257B008508B1 /* PhotoItemView.swift */,
+				DCBE9E8D293C2385008508B1 /* PhotoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,12 +313,14 @@
 				DCBE9E86293C2277008508B1 /* CachedImageManager.swift in Sources */,
 				DCBE9E8E293C2385008508B1 /* PhotoView.swift in Sources */,
 				DCBE9E7E293C20F5008508B1 /* Camera.swift in Sources */,
-				DCBE9E7C293C1F2B008508B1 /* CameraView.swift in Sources */,
+				DCBE9E7C293C1F2B008508B1 /* Camera1View.swift in Sources */,
 				DCBE9E54293C17F3008508B1 /* MainView.swift in Sources */,
 				DCBE9E84293C225B008508B1 /* PhotoAssetCollection.swift in Sources */,
 				DCBE9E8A293C2326008508B1 /* ViewFinderView.swift in Sources */,
+				DCBE9E94293C3C56008508B1 /* SearchView.swift in Sources */,
 				DCBE9E92293C257B008508B1 /* PhotoItemView.swift in Sources */,
 				DCBE9E82293C2219008508B1 /* PhotoCollection.swift in Sources */,
+				DCBE9E96293C9DD6008508B1 /* MapSearchView.swift in Sources */,
 				DCBE9E8C293C2353008508B1 /* PhotoCollectionView.swift in Sources */,
 				DCBE9E52293C17F3008508B1 /* SwiftUIPhotoGalleryApp.swift in Sources */,
 			);
@@ -469,6 +485,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "camera use";
+				INFOPLIST_KEY_NSLocationUsageDescription = "location use";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "location use";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "photo add";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "photo use";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -501,6 +519,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "camera use";
+				INFOPLIST_KEY_NSLocationUsageDescription = "location use";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "location use";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "photo add";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "photo use";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

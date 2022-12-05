@@ -9,14 +9,19 @@ import SwiftUI
 
 @main
 struct SwiftUIPhotoGalleryApp: App {
-    
+    @StateObject private var model = DataModel()
+
     init() {
         UINavigationBar.applyCustomAppearance()
     }
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(photoCollection: model.photoCollection)
+                .task {
+                    await model.loadPhotos()
+                    await model.loadThumbnail()
+                }
         }
     }
 }
