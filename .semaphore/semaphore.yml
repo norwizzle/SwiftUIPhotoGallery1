@@ -20,7 +20,7 @@ blocks:
         - name: bundle exec fastlane test
           commands:
             - bundle exec xcversion select 14.1
-            - bundle exec Fastlane test
+            - bundle exec fastlane test
   - name: Fastlane Build
     task:
       env_vars:
